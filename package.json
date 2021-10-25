@@ -1,5 +1,5 @@
 {
-  "name": "mern-shopping",
+  "name": "redux-store",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -17,6 +17,7 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "react-redux": "^7.2.5"
   }
 }
