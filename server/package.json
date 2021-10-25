@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
+  "engines": {
+    "npm": "7.x",
+    "node": "14.x"
+  },
+    "scripts": {
     "start": "node server.js",
     "watch": "nodemon",
     "seed": "node config/seeds.js"
